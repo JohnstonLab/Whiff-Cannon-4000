@@ -23,6 +23,7 @@ Our delivery barrel was redesigned to account for these differences as shown bel
 ![Delivery barrel assembly](Images/Delivery_barrel.png)
 Delivery assembly IRL    
 ![Delivery barrel assembly IRL](Images/Delivery_barrel_IRL.png)
+
 The enclosure housing the solenoid valves and electronics was made from a Thorlabs enclosure.	
 
 ![Enclosure](Images/Enclosure.png)
@@ -31,7 +32,7 @@ The enclosure housing the solenoid valves and electronics was made from a Thorla
 - Trig provides an output TTL for triggering other equipment
 
 ## Custom parts
-[We provide 3D print files for the delivery barrel and tip aligner.](/Custon_parts). The tip aligner ensures the tips are aligned into the narrower carrier stream.
+[We provide 3D print files for the delivery barrel and tip aligner.](https://github.com/JohnstonLab/Whiff-Cannon-4000/tree/main/Custom_parts). The tip aligner ensures the tips are aligned into the narrower carrier stream.
 
 ## Off the shelf parts list
 [Parts list](Off_the_shelf_components.rtf) for all other components and consumables that may be easier to source for interested Europeans.
