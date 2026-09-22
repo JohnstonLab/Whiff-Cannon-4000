@@ -15,6 +15,8 @@ This page details the following:
 
 The building and testing of this olfactometer were carried out primarily by Georgina Bonny, Adam Barrett and Shreya Choudhuri.
 
+If you use any of this project please cite [![DOI](https://zenodo.org/badge/1381219385.svg)](https://doi.org/10.5281/zenodo.22897727) and [the original paper](https://pubmed.ncbi.nlm.nih.gov/30657873).
+
 ## Modifications
 We have made the following adjustments:
 
