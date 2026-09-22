@@ -27,6 +27,7 @@ Our delivery barrel was redesigned to account for these differences as shown bel
 ![Delivery barrel assembly](Images/Delivery_barrel.png)
 Delivery assembly IRL    
 ![Delivery barrel assembly IRL](Images/Delivery_barrel_IRL.png)
+The top mount can be easily and rapidly switched, enabling many 10s to over 100 odours to be delivered to a single animal. 
 
 The enclosure housing the solenoid valves and electronics was made from a Thorlabs enclosure.	
 
