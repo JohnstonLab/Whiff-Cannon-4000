@@ -11,9 +11,9 @@ This page details the following:
 2) The 3D print files for our [custom parts](#custom-parts) 
 3) Off the shelf [parts list](#off-the-shelf-parts-list)
 4) Jupyter notebook based **[software](#Software) to control the olfactometer**, including outputting the timing and valve that was actuated, triggering of other devices and recording of signals (e.g. PID alongside valve timings)
-5) [Calibration data](#Calibrations) or our assembled device
+5) [Calibration data](#Calibrations) for our assembled device
 
-The building and testing of this olfactometer was carried out primarily by Georgina Bonny, Adam Barrett and Shreya Choudhuri.
+The building and testing of this olfactometer were carried out primarily by Georgina Bonny, Adam Barrett and Shreya Choudhuri.
 
 ## Modifications
 We have made the following adjustments:
@@ -29,26 +29,26 @@ Delivery assembly IRL
 The enclosure housing the solenoid valves and electronics was made from a Thorlabs enclosure.	
 
 ![Enclosure](Images/Enclosure.png)
-- There are 2 analong inputs (AI0 & AI1) enabling recording of PID and valve actuations
-- V0 gives a signal corresponding to valve and carrier stream activity
+- There are 2 analog inputs (AI0 & AI1) enabling recording of PID and valve actuations
+- VO gives a signal corresponding to valve and carrier stream activity
 - Trig provides an output TTL for triggering other equipment
 
 ## Custom parts
-[We provide 3D print files for the delivery barrel and tip aligner.](https://github.com/JohnstonLab/Whiff-Cannon-4000/tree/main/Custom_parts). The tip aligner ensures the tips are aligned into the narrower carrier stream.
+[We provide 3D print files for the delivery barrel and tip aligner](https://github.com/JohnstonLab/Whiff-Cannon-4000/tree/main/Custom_parts). The tip aligner ensures the tips are aligned into the narrower carrier stream.
 
 ## Off the shelf parts list
 [Parts list](off_the_shelf_components.md) for all other components and consumables that may be easier to source for interested Europeans.
 
 ## Software
-The software is based on our Better Olfactometer Software(s) [BOSS repository](https://github.com/JohnstonLab/BOSs).
+The software is based on our Better Olfactometer Software(s) [BOSs repository](https://github.com/JohnstonLab/BOSs).
 ![Controls](Images/Controls.png)
 - Time setting box applies only to running a test. You can select a valve from the drop down menu and deliver a single trial by clicking 'Run Test'. 
 - 'Flow on' button turns carrier stream on and sets the VO BNC port to 0.5V to indicate that flow is on
-- 'Stop' button closes all valves and stops the carrier stream, can interput all other processes.
+- 'Stop' button closes all valves and stops the carrier stream, can interrupt all other processes.
 - 'Use trigger' checkbox will generate a TTL pulse at the start of each 'Pre (s)' period defined in a protocol sequence
 - 'Run Sequence' will execute a sequence that has been loaded in the previous cell. Sequences are stored as csv files with the following structure. You can create multiple sequences and load them as necessary. 
 ![Sequence example](Images/Sequence.png)
-- Open / close Recorder, opens a new floating window to dispaly and record signals from AI0 & AI1. It can be used simmultaneously with the control panel in the jupyter notebook.
+- Open / close Recorder, opens a new floating window to display and record signals from AI0 & AI1. It can be used simultaneously with the control panel in the Jupyter notebook.
 ![Recorder](Images/Recorder.png)
 
 ## Calibrations
