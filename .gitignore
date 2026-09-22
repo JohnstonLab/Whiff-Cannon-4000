@@ -1,0 +1,5 @@
+.DS_Store
+.git
+.gitattributes
+.ipynb_checkpoints
+.jupyter

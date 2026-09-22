@@ -1,0 +1,20 @@
+name: ogun
+channels:
+  - conda-forge
+dependencies:
+  - python==3.10
+  - pip
+  - numpy==1.26
+  - matplotlib
+  - jupyterlab
+  - pandas
+  - jupyterlab-variableinspector
+  - jupyterlab_execute_time
+  - pip:
+    - pyqt5
+    - ipywidgets
+    - ipympl
+    - openpyxl 
+    - jupyterlab-spreadsheet-editor
+    - nidaqmx
+    - pyqtgraph
