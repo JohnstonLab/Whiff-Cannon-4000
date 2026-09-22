@@ -21,9 +21,9 @@ We have made the following adjustments:
 
 Our delivery barrel was redesigned to account for these differences as shown below.
 ![Delivery barrel assembly](Images/Delivery_barrel.png)
-Delivery assembly IRL
+Delivery assembly IRL    
 ![Delivery barrel assembly IRL](Images/Delivery_barrel_IRL.png)
-The enclosure housing the solenoid valves and electronics was made from a Thorlabs enclosure.
+The enclosure housing the solenoid valves and electronics was made from a Thorlabs enclosure.    
 ![Enclosure](Images/Enclosure.png)
 - There are 2 analong inputs (AI0 & AI1) enabling recording of PID and valve actuations
 - V0 gives a signal corresponding to valve and carrier stream activity
