@@ -48,13 +48,14 @@ The software is based on our Better Olfactometer Software(s) [BOSs repository](h
 - 'Flow on' button turns carrier stream on and sets the VO BNC port to 0.5V to indicate that flow is on
 - 'Stop' button closes all valves and stops the carrier stream, can interrupt all other processes.
 - 'Use trigger' checkbox will generate a TTL pulse at the start of each 'Pre (s)' period defined in a protocol sequence
-- 'Run Sequence' will execute a sequence that has been loaded in the previous cell. Sequences are stored as csv files with the following structure. You can create multiple sequences and load them as necessary. 
+- 'Run Sequence' will execute a sequence that has been loaded in the previous cell. Sequences are stored as csv files with the following structure. You can create multiple sequences and load them as necessary.
+
 ![Sequence example](Images/Sequence.png)
 - Open / close Recorder, opens a new floating window to display and record signals from AI0 & AI1. It can be used simultaneously with the control panel in the Jupyter notebook.
 ![Recorder](Images/Recorder.png)
 
 ## Calibrations
-We routinely use 0.2 MPa for the odour delivery valve pressure and 3 l min -1 for the flow rate of the carrier stream, with the whiff canon 4000 positioned 4 cm from the nose of the subject. 
+We routinely use 0.2 MPa for the odour delivery valve pressure and 3 l min -1 for the flow rate of the carrier stream, with the whiff canon 4000 positioned 4 cm from the nose of the subject.
 
 ### Odour pressure 
 Varying the odour delivery valve pressure, all measured with the carrier stream set at 3 l min-1. Measured with a miniPID 4 mm from whiff cannon 4000 tip.
@@ -71,3 +72,5 @@ Single trial plume visualisation using TiCl4, red box indicates distance of test
 Mean PID recordings for each channel.
 ![PID for all channels](Images/Calib_valves.png)
 
+## Etymology
+Whiff cannon 4000, why 4000? The number of preceding prototypes? Its firing position in decamicrons from the nose? Or maybe it's just there for a bit of bombastic bathos.
