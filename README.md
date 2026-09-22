@@ -7,11 +7,11 @@ We were inspired to build this after Matt Wachowiak’s presentation at ECRO 202
 
 The logic of the olfactometer’s operation is detailed in [the original paper](https://pubmed.ncbi.nlm.nih.gov/30657873).  
 This page details the following:
-1) Our [Modifications](##Modifications)
-2) The 3D print files for our custom parts 
-3) Off the shelf parts list
-4) Jupyter notebook based **software to control the olfactometer**, including outputting the timing and valve that was actuated, triggering of other devices and recording of signals (e.g. PID alongside valve timings)
-5) Calibration data or our assembled device
+1) Our [Modifications](#Modifications)
+2) The 3D print files for our [custom parts](#Custom parts) 
+3) Off the shelf [parts list](#Off the shelf parts list)
+4) Jupyter notebook based **[software](#Software) to control the olfactometer**, including outputting the timing and valve that was actuated, triggering of other devices and recording of signals (e.g. PID alongside valve timings)
+5) [Calibration data](#Calibrations) or our assembled device
 
 ## Modifications
 We have made the following adjustments:
