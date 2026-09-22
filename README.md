@@ -35,7 +35,7 @@ The enclosure housing the solenoid valves and electronics was made from a Thorla
 [We provide 3D print files for the delivery barrel and tip aligner.](https://github.com/JohnstonLab/Whiff-Cannon-4000/tree/main/Custom_parts). The tip aligner ensures the tips are aligned into the narrower carrier stream.
 
 ## Off the shelf parts list
-[Parts list](Off_the_shelf_components.md) for all other components and consumables that may be easier to source for interested Europeans.
+[Parts list](off_the_shelf_components.md) for all other components and consumables that may be easier to source for interested Europeans.
 
 ## Software
 The software is based on our Better Olfactometer Software(s) [BOSS repository](https://github.com/JohnstonLab/BOSs).
