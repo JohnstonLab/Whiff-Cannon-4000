@@ -13,6 +13,8 @@ This page details the following:
 4) Jupyter notebook based **[software](#Software) to control the olfactometer**, including outputting the timing and valve that was actuated, triggering of other devices and recording of signals (e.g. PID alongside valve timings)
 5) [Calibration data](#Calibrations) or our assembled device
 
+The building and testing of this olfactometer was carried out primarily by Georgina Bonny, Adam Barrett and Shreya Choudhuri.
+
 ## Modifications
 We have made the following adjustments:
 
