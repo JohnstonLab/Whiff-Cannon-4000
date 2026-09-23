@@ -50,7 +50,7 @@ The software is based on our Better Olfactometer Software(s) [BOSs repository](h
 - 'Flow on' button turns carrier stream on and sets the VO BNC port to 0.5V to indicate that flow is on
 - 'Stop' button closes all valves and stops the carrier stream, can interrupt all other processes.
 - 'Use trigger' checkbox will generate a TTL pulse at the start of each 'Pre (s)' period defined in a protocol sequence
-- 'Run Sequence' will execute a sequence that has been loaded in the previous cell. Sequences are stored as csv files with the following structure. You can create multiple sequences and load them as necessary.
+- 'Run Sequence' will execute a sequence that has been loaded in the previous cell. Sequences are stored as csv files with the following structure. You can create multiple sequences and load them as necessary. The progress bar indicates place in sequence and the 'Status:' text will report the next step of the sequence.
 
 ![Sequence example](Images/Sequence.png)
 - Open / close Recorder, opens a new floating window to display and record signals from AI0 & AI1. It can be used simultaneously with the control panel in the Jupyter notebook.
